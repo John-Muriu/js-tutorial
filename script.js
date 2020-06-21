@@ -38,7 +38,7 @@ let nums = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 0, 'dog');
 const sort = nums.sort();
 sort.push(23);
 sort.unshift('dog');
-// console.log(sort);
+console.log(sort);
 //adding a list to an array
 
 // console.log(Array.isArray(nums));
