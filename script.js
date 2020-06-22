@@ -66,10 +66,12 @@ const person = {
 // // console.log(person.hobbies[3]);
 // person.person = myPerson;
 // person.person('eating');
+person.hobbies.push("eating", "football"); //add the properties to an array
 
 console.log(person);
 const {
     fname,
     lname
 } = person;
-// console.log(person);
+console.log(person.hobbies);
+console.log(person.hobbies[5])
