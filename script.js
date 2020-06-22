@@ -38,12 +38,15 @@ let nums = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 0, 'dog');
 const sort = nums.sort();
 sort.push(23);
 sort.unshift('dog');
-console.log(sort);
+// console.log(sort);
 //adding a list to an array
 
 // console.log(Array.isArray(nums));
 
 //objects
+
+// const myPerson =Array => i<this[Array];
+
 
 const person = {
     fname: 'john',
@@ -55,6 +58,18 @@ const person = {
         city: 'Nairobi',
         state: 'Ke'
     }
-}
-console.log(person.fname); // PRINTS THE first name from the object
-console.log(person.address);
+};
+// console.log(person.fname); // PRINTS THE first name from the object
+// console.log(person.address);
+// person.push.hobbies("Eating");
+// console.log(person.hobbies);
+// // console.log(person.hobbies[3]);
+// person.person = myPerson;
+// person.person('eating');
+
+console.log(person);
+const {
+    fname,
+    lname
+} = person;
+// console.log(person);
