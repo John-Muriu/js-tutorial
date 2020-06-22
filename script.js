@@ -67,11 +67,15 @@ const person = {
 // person.person = myPerson;
 // person.person('eating');
 person.hobbies.push("eating", "football"); //add the properties to an array
-
+console.log(person.hobbies);
+console.log(person.hobbies[5]);
 console.log(person);
 const {
     fname,
-    lname
-} = person;
-console.log(person.hobbies);
-console.log(person.hobbies[5])
+    lname,
+    address: {
+        city
+    }
+} = person; //desctructuring the object
+console.log(city); //print city key
+console.log(lname);
