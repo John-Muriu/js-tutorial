@@ -49,11 +49,12 @@ const person = {
     fname: 'john',
     lname: 'muriu',
     age: 34,
-    hobbies: ["dancing", "music", "dancing"],
+    hobbies: ["dancing", "music", "dancing", "movies"],
     address: {
         street: 'kawangware',
         city: 'Nairobi',
         state: 'Ke'
     }
 }
-console.log(person.fname);
+console.log(person.fname); // PRINTS THE first name from the object
+console.log(person.address);
