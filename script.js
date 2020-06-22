@@ -66,10 +66,10 @@ const person = {
 // // console.log(person.hobbies[3]);
 // person.person = myPerson;
 // person.person('eating');
-person.hobbies.push("eating", "football"); //add the properties to an array
-console.log(person.hobbies);
-console.log(person.hobbies[5]);
-console.log(person);
+// person.hobbies.push("eating", "football"); //add the properties to an array
+// console.log(person.hobbies);
+// console.log(person.hobbies[5]);
+// console.log(person);
 const {
     fname,
     lname,
@@ -79,3 +79,33 @@ const {
 } = person; //desctructuring the object
 console.log(city); //print city key
 console.log(lname);
+
+//adding peroperties and key values
+
+person.email = "johnmuriw@gmail.com";
+person.hobbies = "laughing";
+// console.log(person);
+
+// an Array for todos
+const toDos = [{
+        id: 1,
+        text: "take the Trash",
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: "take the notes",
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: "Clean the office",
+        isCompleted: false
+    },
+    {
+        id: 4,
+        text: "set the meeting area",
+        isCompleted: true
+    }
+];
+console.log(toDos[3].text);
