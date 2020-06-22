@@ -56,4 +56,4 @@ const person = {
         state: 'Ke'
     }
 }
-console.log(person);
+console.log(person.fname);
